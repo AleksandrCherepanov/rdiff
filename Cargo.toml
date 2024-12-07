@@ -1,9 +1,14 @@
 [package]
-name = "rimg"
-version = "0.1.0"
+name = "rdiff"
+version = "0.0.1"
 edition = "2021"
+license = "GNU GENERAL PUBLIC LICENSE"
+authors = ["Aleksandr Cherepanov <aleksandr.s.cherepanov@gmail.com"]
 
 [dependencies]
-dirs = "5.0.1"
 clap_derive = {version = "4.5.18"}
 clap = { version = "4.5.22", features = ["derive"] }
+
+[package.metadata.deb]
+maintainer = "Aleksandr Cherepanov <aleksandr.s.cherepanov@gmail.com"
+copyright = "2024, Aleksandr Cherepanov <aleksandr.s.cherepanov@gmail.com"
